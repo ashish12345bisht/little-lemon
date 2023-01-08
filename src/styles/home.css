@@ -1,0 +1,66 @@
+.banner{
+    padding: 2rem 4rem;
+    display: grid;
+    align-items: center;
+    background-color: #FFFAE6;
+    grid-template-columns: 50% 50%;
+    grid-gap: 2rem;
+}
+.banner img{
+    width: 60%;
+    height: 60%;
+}
+.banner article{
+    margin-bottom: 2rem;
+}
+.banner button{
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+}
+.image_container > img{
+    width: 100%;
+}
+.specials > div{
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 3rem;
+}
+.specials > div > button{
+    padding: 1rem;
+}
+.card_container{
+    display: flex;
+    justify-content: space-around;
+    padding: 0rem 4rem;
+    flex-wrap: wrap;
+}
+.special_card{
+    margin: 2rem;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #FFFAE6;
+    box-shadow: 0px 0px 10px #333;
+    max-width: 360px;
+}
+.special_card:hover{
+    box-shadow: 0px 0px 16px #333;
+    transition: all 0.2s ease-in-out;
+}
+.card_body{
+    padding: 1rem;
+}
+.card_body > span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card_body > article{
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+.card_body > a{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
