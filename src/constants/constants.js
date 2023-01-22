@@ -1,0 +1,2 @@
+export const INITIALIZE_TIMES = "INITIALIZE_TIMES";
+export const UPDATE_TIMES = "UPDATE_TIMES";
