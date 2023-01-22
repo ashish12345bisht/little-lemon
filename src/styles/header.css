@@ -3,7 +3,7 @@
     grid-template-columns: 20% 80%;
     align-items: center;
     padding:1rem 2rem;
-    background-color: #FFDE59;
+    background-color: var(--primary-yellow);
 }
 .header > ul{
     display: flex;

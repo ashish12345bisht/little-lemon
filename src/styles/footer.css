@@ -1,0 +1,8 @@
+footer{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: var(--primary-yellow);
+}
+.footer_logo{
+    width: 200px;
+}

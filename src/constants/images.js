@@ -5,3 +5,4 @@ export const lemon = process.env.PUBLIC_URL + "/images/lemon.png";
 export const hamburger = process.env.PUBLIC_URL + "/images/ham.png";
 export const shahi_paneer = process.env.PUBLIC_URL + "/images/sahi_paneer.png";
 export const sauces = process.env.PUBLIC_URL + "/images/sauces.png";
+export const user = process.env.PUBLIC_URL + './images/user.png';

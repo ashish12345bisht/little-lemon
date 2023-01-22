@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { title, hamburger } from '../../constants/images'
 
 
@@ -9,7 +10,9 @@ const Header = () => {
             <img className='logo' src={title} alt="title" />
             <ul className={`${visible ? "visible" : ""}`}>
                 <li className='cursor-pointer'>
-                    Home
+                    <Link to="/">
+                        Home
+                    </Link>
                 </li>
                 <li className='cursor-pointer'>
                     About
@@ -18,7 +21,9 @@ const Header = () => {
                     Menu
                 </li>
                 <li className='cursor-pointer'>
-                    Reservations
+                    <Link to="/booking">
+                        Reservations
+                    </Link>
                 </li>
                 <li className='cursor-pointer'>
                     Order Online

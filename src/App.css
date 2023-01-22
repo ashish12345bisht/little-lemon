@@ -1,5 +1,14 @@
+:root {
+  --primary-yellow: #ffde59;
+  --dark: #333;
+  --white: #ffffff;
+}
 .App {
   text-align: center;
+}
+a {
+  text-decoration: none;
+  color: var(--dark);
 }
 
 .App-logo {

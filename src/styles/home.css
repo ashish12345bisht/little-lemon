@@ -64,3 +64,18 @@
     font-weight: 600;
     font-size: 1.2rem;
 }
+.testimonial_card{
+    background-color: var(--primary-yellow);
+    width: 25%;
+    border-radius: 20px;
+    padding: 1rem;
+}
+.testimonial_card>.image_div{
+    display: flex;
+    align-items: center;
+}
+.image_div>img{
+    width: 100px;
+    border-radius: 20px;
+    margin-right: 2rem;
+}
