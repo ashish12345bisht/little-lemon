@@ -5,6 +5,7 @@ import Header from './components/common/Header';
 import Home from './pages/Home';
 import Footer from './components/common/Footer';
 import Booking from './pages/Booking';
+import ConfirmedBooking from './pages/ConfirmedBooking';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Routes>
           <Route path='/' exact={true} element={<Home />} />
           <Route path='/booking' exact={true} element={<Booking />} />
-          <Route path='/confirm-booking' exact={true} element={<Booking />} />
+          <Route path='/confirm-booking' exact={true} element={<ConfirmedBooking />} />
         </Routes>
         <Footer />
       </BrowserRouter>

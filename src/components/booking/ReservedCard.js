@@ -2,7 +2,7 @@ import React from 'react'
 
 const ReservedCard = ({ item = {} }) => {
     return (
-        <div>
+        <div className='reserved'>
             <h2>Occasion : {item?.occasion || "NA"}</h2>
             <span>
                 <span>{item?.date || "NA"}</span>

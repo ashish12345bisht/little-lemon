@@ -11,7 +11,6 @@ function reducer(state, action) {
         case INITIALIZE_TIMES:
             return action.payload;
         case UPDATE_TIMES:
-            console.log(state?.filter((item) => item?.value !== action?.payload))
             return state?.filter((item) => item !== action?.payload)
         default:
             return state;
@@ -36,7 +35,6 @@ const Booking = () => {
         response?.forEach((item) => {
             let check = true
             savedDates?.forEach((curDate) => {
-                let newDate = new Date(curDate?.date)
                 if (curDate?.date === date && item === curDate?.time) {
                     check = false
                 }
@@ -75,7 +73,7 @@ const Booking = () => {
                 savedDates={savedDates}
                 submitForm={submitForm}
                 initializeTimes={initializeTimes} />
-            <section>
+            <section className="reservedContainer">
                 {savedDates?.map((item, ind) => (
                     <ReservedCard key={ind} item={item} />
                 ))}

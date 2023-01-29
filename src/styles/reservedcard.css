@@ -1,0 +1,14 @@
+.reservedContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.reserved {
+  background-color: var(--primary-yellow);
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px var(--dark);
+  overflow: hidden;
+  padding: 1rem;
+  margin: 1rem;
+  width: 20%;
+}
